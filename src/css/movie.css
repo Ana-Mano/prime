@@ -1,0 +1,43 @@
+.movie-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+img{
+    width: 12vw;
+    height: 25vh;
+}
+
+.each-movie-container{
+    margin: 5% 0;
+    padding-bottom: 3% 0;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0)
+}
+
+.each-movie-button{
+    padding: 2%
+}
+
+.movie-cat{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(248, 241, 232);
+}
+
+.movie-cat li{
+    padding: 1%;
+    margin: 3%;
+    background-color: burlywood;
+    cursor: pointer;
+
+}
+
+.movie-cat ul{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+
+}
